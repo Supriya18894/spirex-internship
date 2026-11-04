@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+</head>
+
+<body>
+
+    <h1>Hi! I'm Sanchita Priya</h1>
+
+    <img src="https://png.pngtree.com/png-clipart/20260907/ourlarge/pngtree-faceless-woman-professional-avatar-icon-in-brown-suit-blazer-png-image_20092235.webp" alt="My Profile Image" width="150">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am a BCA student
+      .  I am interested in technology and web development.
+        I enjoy learning new things and building creative projects.
+    </p>
+
+    <h2>My Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C Programming</li>
+    </ul>
+
+    <h2>My Hobbies</h2>
+
+    <ol>
+        <li>Reading books</li>
+        <li>Exploring technology</li>
+        <li>Learning new things</li>
+    </ol>
+
+    <h2>My Favourite Website</h2>
+
+    <p>
+      <a href="https://www.google.com" target="_blank">    Visit Google</a>
+    </p>
+
+</body>
+</html>
