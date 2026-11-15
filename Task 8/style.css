@@ -1,0 +1,59 @@
+.container {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 30px;
+    background: linear-gradient(135deg,
+            #000000,
+            #740000,
+            #4C0000,
+            #000000);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur;
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+}
+
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: linear-gradient(135deg,
+            #000000,
+            #4C0000,
+            #740000,
+            #000000);
+    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #FFF1E6;
+}
+
+.options {
+    color: #FFF1E6;
+}
+
+button {
+    background-color: #FFF1E6;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #000000;
+    align-items: left;
+}
