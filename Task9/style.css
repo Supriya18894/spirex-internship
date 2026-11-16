@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Vallerie";
+    src: url("fonts/Vallerie.otf") format("opentype");
+}
+
+.container {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Vallerie", sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #000000;
+    color: beige;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #000000;
+    color: beige;
+    font-family: "Vallerie", sans-serif;
+    font-size: 35px;
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+.color {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 15px;
+}
