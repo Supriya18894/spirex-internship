@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'Bastilga';
+    src: url('assets/Bastliga One.ttf');
+}
+
+body {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 190px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+   flex: 0 0 120px;
+    transition: all 0.4s ease;
+}
+.container img.active{
+       flex: 0 0 350px;
+    height: 450px;
+}
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+p{
+    color: #B3B3B3;
+    margin-top: 15px;
+    font-family: Bastilga;
+    font-size: 95px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #E50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.dots button.dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dots button.dot.selected {
+    background-color: #E50914;
+    transform: scale(1.3);
+}
+#caption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#counter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
