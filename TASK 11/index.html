@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Movie Gallery</h1>
+
+    <p>Cinema is the most beautiful fraud in the world.</p>
+
+    <div class="container">
+
+        <img src="assets/1.jpg" alt="Stranger Things">
+        <img src="assets/2.jpg" alt="Alice in Borderland">
+        <img src="assets/3.jpg" alt="All of Us Are Dead">
+        <img src="assets/4.jpg" alt="Happiness">
+        <img src="assets/6.jpg" alt="Bring Her Back">
+        <img src="assets/5.jpg" alt="The Nun">
+        <img src="assets/7.jpg" alt="My Name">
+        <img src="assets/8.jpg" alt="Tunnel">
+        <img src="assets/9.jpg" alt="Obsession">
+
+    </div>
+
+    <p id="caption">Stranger Things</p>
+
+    <div class="dots">
+
+        <button class="dot" onclick="goToImage(0)"></button>
+        <button class="dot" onclick="goToImage(1)"></button>
+        <button class="dot" onclick="goToImage(2)"></button>
+        <button class="dot" onclick="goToImage(3)"></button>
+        <button class="dot" onclick="goToImage(4)"></button>
+        <button class="dot" onclick="goToImage(5)"></button>
+        <button class="dot" onclick="goToImage(6)"></button>
+        <button class="dot" onclick="goToImage(7)"></button>
+        <button class="dot" onclick="goToImage(8)"></button>
+
+    </div>
+    <div class="buttons">
+        <button onclick="previousImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+    </div>
+
+    <p id="counter">Image 1 of 9</p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
