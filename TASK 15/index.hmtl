@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+<h1> MAISON ÉLAN</h1>
+<pre><i>Style isn't about following every trend. 
+    It's about finding what feels like you.</i></pre>
+ </div>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+  <a href="#cart" id="count">🛒 Cart (<span id="cart-count">0</span>)</a>
+    <a href="#contact">Contact</a>
+</nav>
+    </header>
+   
+
+    <main>
+<div class="explore">
+    <div class="card">
+    <img src="img/1.jpg">
+    <h4>Cocoa Leather Bomber</h4>
+    <p class="price">$89 </p>
+    <button class="cart">ADD TO CART</button>
+</div>
+    <div class="card">
+    <img src="img/2.jpg" >
+    <h4>Harbor Track Jacket</h4>
+    <p class="price">$59 </p>
+    <button class="cart">ADD TO CART</button>
+</div>
+    <div class="card">
+    <img src="img/3.jpg">
+    <h4>Mocha Colorblock Hoodie</h4>
+    <p class="price">$49 </p>
+    <button class="cart">ADD TO CART</button>
+</div>
+    <div class="card">
+    <img src="img/4.jpg">
+    <h4>Bordeaum Oversized Knit</h4>
+    <p class="price">$65 </p>
+    <button class="cart">ADD TO CART</button>
+</div>
+    <div class="card">
+    <img src="img/5.jpg">
+    <h4>Sand Belted Trench Coat</h4>
+    <p class="price">$120 </p>
+    <button class="cart">ADD TO CART</button>
+</div>
+
+
+</div>
+        
+    </main>
+   
+</body>
+    <script src="script.js"></script>
+
+</html>
+
