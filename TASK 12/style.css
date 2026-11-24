@@ -1,0 +1,56 @@
+.container {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 30px;
+   
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur;
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+}
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background: linear-gradient(135deg,
+            #133215,
+            #92B775,
+            #F3E8D3,
+            #133215);
+    color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    border-radius: 5px;
+    border-color: #133215;
+    padding: 10px;
+    background: #c6e7ad;
+}
+
+button {
+    background-color: #FFF1E6;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 10px;
+}
+button:hover {
+    color: white;
+    background-color: #000000;
+    align-items: left;
+}
+
+p{
+    text-align: center;
+}
