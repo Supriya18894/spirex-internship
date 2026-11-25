@@ -1,0 +1,99 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #1D1015,
+        #421b29,
+        #702B40,
+        #A64C61,
+        #D28B96,
+        #F1DDE0
+    );
+}
+.container {
+    width: 340px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.50);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display {
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px 5px;
+    color: white;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.operators {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#equals {
+    grid-column: 1 / -1;
+}
+button {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.light-mode {
+    background: linear-gradient(
+        135deg,
+        #F1DDE0,
+        #D28B96,
+        #A64C61
+    );
+}
+
+.light-mode .container {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.light-mode .display {
+    color: #321923;
+}
+
+.light-mode button {
+    background: rgba(255, 255, 255, 0.4);
+    color: #321923;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
