@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Qurova";
+    src: url("fonts/Qurova.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Bastilga";
+    src: url("fonts/Bastliga\ One.ttf") format("truetype");
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo h1 {
+    font-family: 'Qurova' ;
+    font-weight: normal;
+    font-size: 85px;
+    letter-spacing: 3px;
+}
+#caption{
+    font-family: 'Bastilga';
+    font-size: 38px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+       overflow: hidden;
+    background: linear-gradient(120deg, #211b1b, #49342e, #1c2227);
+    color: #fff4e8;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.1)
+    );
+    pointer-events: none;
+}
+.main, .side {
+    position: relative;
+    z-index: 1;
+}
+.main {
+    width: 70%;
+    height: 100vh;
+    padding: 45px;
+    position: relative;
+}
+
+.side {
+    width: 30%;
+    height: 100vh;
+     padding: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.info {
+    position: absolute;
+    bottom: 70px;
+    left: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#date {
+   
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#city {
+    
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#temperature {
+   
+    font-size: 75px;
+    font-weight: normal;
+}
+
+#condition {
+
+    font-size: 35px;
+}
+.search {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+
+}
+
+.search input {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+.search input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search button {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #c49a75;
+    color: #211b1b;
+    cursor: pointer;
+}
+.weather-details {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.weather-details h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.weather-details p {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
