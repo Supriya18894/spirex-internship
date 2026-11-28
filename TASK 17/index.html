@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER|Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <h1> AETHER</h1>
+            <p id="caption">Weather,Beyond The Ordinary</p>
+        </div>
+
+        <div class="info">
+            <p id="date">Loading Date....</p>
+            <h1 id="city">City...</h1>
+            <h2 id="temperature">--°C</h2>
+            <p id="condition"> Loading Weather....</p>
+
+        </div>
+
+    </div>
+
+    <div class="side">
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Search City">
+            <button id="btn">Search</button>
+        </div>
+        <div class="weather-details">
+
+            <h3>Weather Details</h3>
+
+            <p>Humidity: <span id="humidity">--%</span></p>
+
+            <p>Wind Speed: <span id="wind">-- km/h</span></p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
